@@ -7,6 +7,6 @@ const mongoose = require('mongoose');
 mongoose.connect(process.env.DATABASE_URL, {useNewUrlParser: true});
 const db = mongoose.connection
 db.on('error', (error) => console.error(error));
-db.on('open', () => console.log('Connected to the database'));
+db.once('open', () => console.log('Connected to the database'));
 
 app.listen(3000, () => console.log('Server Started'));
