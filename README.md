@@ -1,4 +1,4 @@
 # quick-rest-api-Node-express-mongo
-fully functional REST AP
+fully functional REST API
 
 # run npm devStart
