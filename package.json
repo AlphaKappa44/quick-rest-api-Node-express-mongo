@@ -1,0 +1,27 @@
+{
+  "name": "quick-rest-api-node-express-mongo",
+  "version": "1.0.0",
+  "description": "fully functional REST AP",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlphaKappa44/quick-rest-api-Node-express-mongo.git"
+  },
+  "author": "A. Kelifa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlphaKappa44/quick-rest-api-Node-express-mongo/issues"
+  },
+  "homepage": "https://github.com/AlphaKappa44/quick-rest-api-Node-express-mongo#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.13"
+  }
+}
