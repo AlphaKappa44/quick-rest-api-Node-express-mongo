@@ -1,0 +1,16 @@
+
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/12
+
+###
+
+POST http://localhost:3000/subscribers
+
+{
+    "name": "Amazing Person",
+    "subscriberToChannel": "The Petit Principe"
+}
+
